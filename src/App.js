@@ -86,12 +86,14 @@ const App = () => {
   }
   return (
     <div className="App">
-      <h1>Movie Recommendation App</h1>
+      <h1>🎥Movie Recommendation App</h1>
       <p>Checkout my favourite movies list from different genres.</p>
       <div>
         {moviesWeKnow.map((genre) => {
           return (
-            <button onClick={() => genreClickHandler(genre)}>{genre}</button>
+            <button className="btn" onClick={() => genreClickHandler(genre)}>
+              {genre}
+            </button>
           );
         })}
       </div>
@@ -99,7 +101,7 @@ const App = () => {
       <div>
         <ul>
           {moviesList[defaultGenre].map((movie) => (
-            <li key={movie.name}>
+            <li className="list" key={movie.name}>
               <div> {movie.name} </div>
               <div> {movie.rating} </div>
             </li>
