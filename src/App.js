@@ -110,6 +110,7 @@ const App = () => {
             <li className="list" key={movie.name}>
               <div> {movie.name} </div>
               <div> {movie.rating} </div>
+              <div> {movie.description} </div>
             </li>
           ))}
         </ul>
