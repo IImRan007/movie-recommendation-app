@@ -5,14 +5,20 @@ var moviesList = {
   Action: [
     {
       name: "Black Widow",
+      description:
+        "Natasha Romanoff, a former KGB spy, is shocked to find out that her ex handler, General Dreykov, is still alive. While evading capture by Taskmaster, she is forced to confront her dark past.",
       rating: "6.8 / 10",
     },
     {
       name: "Mortal Kombat",
+      description:
+        "Hunted by the fearsome warrior Sub-Zero, MMA fighter Cole Young finds sanctuary at the temple of Lord Raiden. Training with experienced fighters",
       rating: "6.1 / 10",
     },
     {
       name: "The Tomorrow War",
+      description:
+        "The world is stunned when a group of time travellers arrive from the year 2051 to deliver an urgent message.",
       rating: "6.6 / 10",
     },
     {
