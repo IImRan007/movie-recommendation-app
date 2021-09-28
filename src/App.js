@@ -134,7 +134,7 @@ const App = () => {
         <ul>
           {moviesList[defaultGenre].map((movie) => (
             <li className="list" key={movie.name}>
-              <div> {movie.name} </div>
+              <div className="movie-name"> {movie.name} </div>
               <div> {movie.rating} </div>
               <div> {movie.description} </div>
             </li>

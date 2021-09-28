@@ -38,3 +38,7 @@ p {
   border-radius: 0.5rem;
   background: rgb(229, 231, 235);
 }
+
+.movie-name {
+  font-weight: bold;
+}
