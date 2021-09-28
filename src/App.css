@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 body {
-  font-family: 'Nunito', sans-serif;  
+  font-family: "Nunito", sans-serif;
+  background-color: darkgray;
 }
 
 .App {
@@ -10,7 +11,7 @@ body {
   margin: auto;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
